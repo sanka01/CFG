@@ -1,8 +1,10 @@
-package sanka.rpg.cfg
+package sanka.rpg.cfg.view
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
+import sanka.rpg.cfg.R
 
 class MainActivity : AppCompatActivity() {
 
@@ -13,7 +15,8 @@ class MainActivity : AppCompatActivity() {
         val btnContinuar : Button = findViewById(R.id.buttonContinuar)
 
         btnContinuar.setOnClickListener {
-
+            val trocaTela = Intent(this, MenuActivity::class.java)
+            startActivity(trocaTela)
         }
     }
 }

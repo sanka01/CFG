@@ -3,17 +3,17 @@
     <item>
         <shape>
             <gradient
-                android:angle="90"
-                android:startColor="@color/green"
-                android:endColor="@color/darkBlue"
-                android:type="linear" />
+                    android:angle="90"
+                    android:startColor="@color/darkBlue"
+                    android:endColor="@color/green"
+                    android:type="linear" />
             <corners android:bottomRightRadius="25dp"
                     android:bottomLeftRadius="25dp"
                     android:topRightRadius="25dp"
                     android:topLeftRadius="25dp"/>
             <padding android:bottom="8dp"
-                android:left="50dp"
-                android:right="50dp"
+                android:left="25dp"
+                android:right="25dp"
                 android:top="8dp"/>
         </shape>
     </item>

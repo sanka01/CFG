@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="@android:color/transparent">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            <ImageButton
+                    android:background="@drawable/background_rounded_top"
+                    android:layout_width="140dp"
+                    android:paddingTop="30dp"
+                    android:id="@+id/portrait"
+                    android:src="@drawable/perfil_viking"
+                    android:layout_height="150dp"
+                    android:scaleType="fitCenter"/>
+            <TextView
+                    android:maxLines="1"
+                    android:maxLength="8"
+                    android:background="@drawable/background_sea_round_down"
+                    android:layout_width="140dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/nome"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:fontFamily="casual"
+                  />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
